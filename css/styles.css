@@ -1,6 +1,7 @@
 body {
- /* background-color: #cccccc; */
- background-image: url("../images/Background.jpg");
+ background-color: #2e3131;
+ color: #fff;
+ /* background-image: url("../images/Background.jpg"); */
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
@@ -10,12 +11,19 @@ body {
 /* img {
   float: right;
 } */
-.summary{
+.summary a{
   /* border:1px solid red; */
+  color: yellow;
+  text-decoration: none;
 }
 .avatar{
   float: right;
-  /* width: 30%; */
+  width: 30%;
+  text-align:right;
+}
+.avatar img{
+  width: 60%;
+  height: 60%;
 }
 .experience{
   float: left;
@@ -24,9 +32,18 @@ body {
 .hobbies{
   /* border: 1px solid black; */
 }
-.portfolio{
+.portfolio {
+   /* background-color: #3dae2c; */
   /* border: 1px dotted silver; */
 }
 .clear{
   clear: both;
+}
+.external a{
+  color: #ff0000;
+  text-decoration: none;
+}
+.internal a{
+  color: blue;
+  text-decoration: none;
 }
