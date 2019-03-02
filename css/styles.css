@@ -1,18 +1,13 @@
 body {
  background-color: #2e3131;
  color: #fff;
- /* background-image: url("../images/Background.jpg"); */
- /* background-size: cover; */
- /* background-position: center; */
- /* background-repeat: no-repeat; */
  font-family: sans-serif;
  padding: 5px 15px;
 }
-/* img {
-  float: right;
-} */
+h1 {
+  color: yellow;
+}
 .summary a{
-  /* border:1px solid red; */
   color: yellow;
   text-decoration: none;
 }
@@ -28,13 +23,6 @@ body {
 .experience{
   float: left;
   width: 70%;
-}
-.hobbies{
-  /* border: 1px solid black; */
-}
-.portfolio {
-   /* background-color: #3dae2c; */
-  /* border: 1px dotted silver; */
 }
 .clear{
   clear: both;
